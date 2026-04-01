@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадебное приглашение | Сапар и Сельби</title>
+    <!-- Подключаем шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:wght@300;400;500;600&family=Marck+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Envelope Animation Overlay -->
+    <div id="envelope-wrapper" class="envelope-wrapper">
+        <div class="envelope" id="envelope">
+            <div class="envelope-back"></div>
+            <div class="letter">
+                <span class="envelope-names">Сапар <span class="ampersand" style="font-size: 1.8rem;">&</span>
+                    Сельби</span>
+                <span class="envelope-text">Приглашение на свадьбу</span>
+            </div>
+            <div class="flap flap-left"></div>
+            <div class="flap flap-right"></div>
+            <div class="flap flap-bottom"></div>
+            <div class="flap flap-top"></div>
+            <div class="envelope-stamp">
+                <svg viewBox="0 0 32 29.6" class="stamp-heart">
+                    <path
+                        d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2 c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+                        fill="#fff" />
+                </svg>
+            </div>
+        </div>
+        <p class="open-hint">Нажмите, чтобы открыть</p>
+    </div>
+
+    <div class="desktop-bg"></div>
+    <div class="landing-container">
+
+        <!-- Заголовок -->
+        <header class="hero-section fade-in">
+            <h1 class="names-title">Сапар <span class="ampersand">&</span> Сельби</h1>
+            <p class="subtitle_header">Оставите этот день в своём сердце</p>
+            <div class="date-badge">
+                <span class="date-text">28 апреля 2026 года</span>
+            </div>
+        </header>
+
+        <!-- Блок с детскими фотографиями (Из картинки 1) -->
+        <section class="children-date-section fade-in">
+            <div class="children-wrapper">
+                <div class="child-photo-container">
+                    <!-- Заглушка, если фото не загрузилось - оно есть, но на всякий случай -->
+                    <img src="images/child.png" alt="Сапар и Сельби в детстве" class="child-image">
+                    <span class="child-label groom-label">жених</span>
+                    <span class="child-label bride-label">невеста</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Приглашение (Стиль 2) -->
+        <section class="intro-section fade-in">
+            <h2 class="section-title">Узнали? Да-да, это мы! Время пронеслось незаметно и у этих двух прекрасных деток
+                скоро свадьба.
+            </h2>
+            <p class="intro-text">И в этот прекрасный день мы хотим вместе с Вами разделить яркие мгновения и искренние
+                улыбки!</p>
+        </section>
+
+        <!-- Календарь (Сетка из картинки 1) -->
+        <section class="calendar-section fade-in">
+            <p class="calendar-subtitle">Наше <span class="burgundy-text">«навсегда»</span> начнется...</p>
+            <div class="calendar-label">Апрель</div>
+            <div class="calendar-grid">
+                <!-- Дни недели (Пн, Вт, Ср, Чт, Пт, Сб, Вс) -->
+                <div class="cal-day-name">Пн</div>
+                <div class="cal-day-name">Вт</div>
+                <div class="cal-day-name">Ср</div>
+                <div class="cal-day-name">Чт</div>
+                <div class="cal-day-name">Пт</div>
+                <div class="cal-day-name">Сб</div>
+                <div class="cal-day-name">Вс</div>
+                <!-- Даты апреля 2026: 1 апреля - среда -->
+                <div class="cal-day empty"></div>
+                <div class="cal-day empty"></div>
+                <div class="cal-day">01</div>
+                <div class="cal-day">02</div>
+                <div class="cal-day">03</div>
+                <div class="cal-day">04</div>
+                <div class="cal-day">05</div>
+                <div class="cal-day">06</div>
+                <div class="cal-day">07</div>
+                <div class="cal-day">08</div>
+                <div class="cal-day">09</div>
+                <div class="cal-day">10</div>
+                <div class="cal-day">11</div>
+                <div class="cal-day">12</div>
+                <div class="cal-day">13</div>
+                <div class="cal-day">14</div>
+                <div class="cal-day">15</div>
+                <div class="cal-day">16</div>
+                <div class="cal-day">17</div>
+                <div class="cal-day">18</div>
+                <div class="cal-day">19</div>
+                <div class="cal-day">20</div>
+                <div class="cal-day">21</div>
+                <div class="cal-day">22</div>
+                <div class="cal-day">23</div>
+                <div class="cal-day">24</div>
+                <div class="cal-day">25</div>
+                <div class="cal-day">26</div>
+                <div class="cal-day">27</div>
+                <div class="cal-day active-day">
+                    <span>28</span>
+                    <svg viewBox="0 0 32 29.6" class="heart-bg-cal">
+                        <path
+                            d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2 c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+                            fill="#7A1A26" />
+                    </svg>
+                </div>
+                <div class="cal-day">29</div>
+                <div class="cal-day">30</div>
+                <div class="cal-day empty"></div>
+                <div class="cal-day empty"></div>
+                <div class="cal-day empty"></div>
+            </div>
+        </section>
+
+        <!-- Таймлайн (Стиль 2) -->
+        <section class="timeline-section fade-in" id="timelineSection">
+            <!-- Линия таймлайна будет нарисована в CSS/JS -->
+            <svg class="timeline-svg" preserveAspectRatio="none" viewBox="0 0 100 800"
+                xmlns="http://www.w3.org/2000/svg">
+                <!-- Плавная извилистая кривая -->
+                <path id="timelinePath" d="M50,0 Q95,120 50,240 T50,480 T50,720 Q70,800 50,800" fill="none"
+                    stroke="#e0d5ce" stroke-width="1.5" stroke-dasharray="4,4" />
+            </svg>
+            <div class="sliding-heart" id="slidingHeart">
+                <svg viewBox="0 0 32 29.6" width="30" height="30">
+                    <path
+                        d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2 c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"
+                        fill="#7A1A26" />
+                </svg>
+            </div>
+
+            <div class="timeline-items-wrapper">
+                <div class="timeline-item right-align">
+                    <div class="time">18:00</div>
+                    <div class="event-title script-font">Сбор гостей</div>
+                </div>
+
+                <div class="timeline-item left-align" style="margin-top: 50px;">
+                    <div class="time">18:30</div>
+                    <div class="event-title script-font">Трансляция воспоминаний</div>
+                    <div class="event-desc">Самых тёплых и дорогих 📸</div>
+                </div>
+
+                <div class="timeline-item right-align" style="margin-top: 50px;">
+                    <div class="time">19:00</div>
+                    <div class="event-title script-font">Торжественный выход</div>
+                    <div class="event-desc">жениха и невесты</div>
+                </div>
+            </div>
+
+            <p class="timeline-footer">Просим прибыть вовремя, чтобы полностью разделить с нами этот особенный момент
+            </p>
+
+            <!-- Текстовая подсказка из второго референса -->
+            <div class="timeline-hint">
+                <svg width="40" height="30" viewBox="0 0 40 30" fill="none" class="hint-arrow">
+                    <path d="M5 5 Q20 25 35 15 M30 10 L35 15 L32 20" stroke="#fff" stroke-width="1.5" fill="none" />
+                </svg>
+                <span>Сердце плавно скользит вдоль линии, когда листаешь приглашение вниз.</span>
+            </div>
+        </section>
+
+        <!-- Место проведения -->
+        <section class="location-section fade-in">
+            <div class="burgundy-card">
+                <h2 class="card-title script-font text-white">Ждем вас</h2>
+                <p class="card-text text-white">Главный банкетный зал ресторана<br><strong>Toy Mekan</strong></p>
+                <a href="https://share.google/GtjKW9VXLAMMs3oWh" target="_blank" class="primary-btn">Перейти на
+                    карту</a>
+            </div>
+        </section>
+
+        <!-- Цитата и Таймер (Стиль 2) -->
+        <section class="bot-section fade-in">
+            <p class="timer-subtitle">мы скажем <span class="script-highlight">ДА</span> через...</p>
+
+            <div class="timer" id="countdown">
+                <div class="time-box"><span id="days">00</span><small>дней</small></div>
+                <div class="colon">:</div>
+                <div class="time-box"><span id="hours">00</span><small>часов</small></div>
+                <div class="colon">:</div>
+                <div class="time-box"><span id="minutes">00</span><small>минут</small></div>
+                <div class="colon">:</div>
+                <div class="time-box"><span id="seconds">00</span><small>секунд</small></div>
+            </div>
+
+            <p class="quote" style="margin-top: 60px;">Любовь смотрит не глазами, а сердцем</p>
+
+            <div class="photos-grid">
+                <img src="images/photo1.jpg" alt="Фото пары 1" class="photo-item photo-large">
+                <div class="photo-row">
+                    <img src="images/photo2.jpg" alt="Фото пары 2" class="photo-item">
+                    <img src="images/photo3.jpg" alt="Фото пары 3" class="photo-item">
+                </div>
+            </div>
+        </section>
+
+        <!-- Пожелания и Группа -->
+        <section class="info-blocks fade-in">
+            <!-- Блок с полноэкранным бордовым фоном -->
+        </section>
+
+        <div class="full-burgundy-bg">
+            <div class="burgundy-content fade-in">
+                <h2 class="card-title script-font text-white">Пожелания</h2>
+                <p class="card-text text-white">Мы очень ценим Вашу заботу, внимание и будем рады любому подарку! И не
+                    важно, в какой конверт Вы его упакуете :)</p>
+                <p class="card-text text-white"> Большая просьба не опаздывать!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
